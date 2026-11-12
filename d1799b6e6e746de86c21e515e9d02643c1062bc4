@@ -1,0 +1,10 @@
+Codex-Review: passed
+Reviewer: Claude Code /code-review (Codex returned no output)
+Reviewed-At: 2026-11-12T08:21:41Z
+Fixed: RA funds ignored gold the offerer gives in the same trade (fixed in c7e7f6d)
+Declined-By: Claude Code
+Declined: Gold-offer 0.9 tolerance mixing with RA check - pre-existing tolerance, edge needs a near-broke partner; out of scope for a narrow upstream PR
+Declined: Invalid AI requests dropped without decline cooldown - pre-existing automation behaviour, separate PR
+Declined: offerResearchAgreement over-commits treasury across partners - root-cause change in automation, separate PR
+Declined: UI uses > vs >= and ignores other gold - pre-existing UI threshold, maintainer did not ask
+Declined: gold sums computed on every isTradeValid call - trivial cost, two short list scans
