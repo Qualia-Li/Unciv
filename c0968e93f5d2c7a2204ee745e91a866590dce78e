@@ -1,0 +1,15 @@
+Codex-Review: passed
+Reviewer: Claude Code subagents (Codex out of credits), backlog sweep of the unpushed range
+Reviewed-At: 2026-11-15T04:10:43Z
+Fixed: dc61662 a city's second resource tile never reached the market; own unsold strategic goods were not supply, so no new strategic unit/building could start
+Fixed: 40de6dc team-war invite skipped below motivation 20; any parked civilian kept a road network
+Declined-By: Claude Code
+Declined: luxury flow accumulates across recomputes — wrong, allocate fills every field's flow with 0
+Declined: preview market lacks paid — wrong, preview shares paid
+Declined: toll and tariff cut overlap (LOW) — under 1% of a price; revisit with the trade calibration
+Declined: smoothed strategic supply lags one or two turns (MEDIUM) — the 30%/turn pace is the user's rule; spare own goods now cover the start
+Declined: native strategic trade debits stay (MEDIUM) — only if native resource trades run in trade games; not verified to happen
+Declined: unit supply items (owner charge, own-land quartering, healing, range) — already fixed in the current UnitSupply.kt; no-city attrition and straight-line home city are LOW
+Declined: settler falls back to native local search — the commit states that fallback on purpose; changing it is a mechanism question
+Declined: peaceWish with no union — every caller is inside a union
+Declined: Competitor relationship shortcut, buyPeace pays before signing, hopeless double count, materials rounding — LOW, no observed failure
