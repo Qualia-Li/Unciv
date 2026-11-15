@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: Claude Code subagent (Codex out of credits)
+Reviewed-At: 2026-11-15T04:13:17Z
+Fixed: in 6d66213 — spare strategic supply lost on clone/load; double count against smoothed payments; shared-key invariant commented
