@@ -1,0 +1,4 @@
+Codex-Review: skipped
+Reviewer: Claude Code
+Reviewed-At: 2026-11-15T04:13:17Z
+Reason: fix commit for the review of dc61662 (copy in clone, saved field, unsmoothed read); verified by SupplyProbe and TradeMarketSmoke on the turn-663 trade save
