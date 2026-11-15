@@ -1,0 +1,13 @@
+Codex-Review: passed
+Reviewer: Claude Code /code-review (Codex out of credits); fix commits self-reviewed
+Reviewed-At: 2026-11-15T03:55:41Z
+Fixed: two states could both finish as one target nation; revolution re-checks the target at each turn end
+Fixed: a removed formation id left permanent anarchy; endTurn now cancels it
+Fixed: a puppet could be chosen as the new capital (UI and begin)
+Fixed: anarchy hidden from statsForNextTurn (top bar, AI, trade budget); now applied there
+Fixed: release requirements did not list the valid-map and no-revolution blockers
+Declined-By: Claude Code
+Declined: revolution clears Liberty Complete (union founding right) — it is regained by re-picking Liberty, as the user's "all policies chosen anew" asks
+Declined: old saves mid-ratification complete at once — no campaign had formation enabled before 1444 turned it on 2026-11-14; worst case is one skipped anarchy
+Declined: automate() rescans matchedCities several times per project — not measured as slow; profile if the turn exceeds its 1 s budget
+Declined: VassalManager nationName branch style — no behaviour change
