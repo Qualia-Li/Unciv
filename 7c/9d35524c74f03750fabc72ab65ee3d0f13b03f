@@ -1,0 +1,5 @@
+Codex-Review: passed
+Reviewed-At: 2026-11-17T03:38:18Z
+Review: backlog sweep 2026-11-17 (gpt-6-astra high, 500-line chunks)
+Fixed: HIGH findings still present in current code fixed in engine e1025bd 249a9b7 4068f47 931c693 and civ1000 286e798 and the marriage-recipient fix
+Declined: HIGH findings already fixed by later commits or on the retired browser prototype; MEDIUM/LOW by the backlog default
