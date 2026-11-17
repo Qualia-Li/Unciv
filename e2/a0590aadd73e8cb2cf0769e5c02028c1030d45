@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewed-At: 2026-11-17T08:02:40Z
+Review: 2026-11-17 evening sweep (gpt-6-astra high)
+Fixed: MEDIUM findings (capture of aircraft targets and peaceful civilians, stale diplomacy screen in the city popup) fixed in b8c0f9c and 5709ade
