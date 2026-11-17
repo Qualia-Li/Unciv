@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewed-At: 2026-11-17T08:02:40Z
+Review: 2026-11-17 evening sweep (gpt-6-astra high)
+Review: fix commit reviewed on its own; its one MEDIUM (stale action index) fixed in 5709ade
