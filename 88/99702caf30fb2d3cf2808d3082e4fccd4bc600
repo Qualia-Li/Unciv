@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI
+Reviewed-At: 2026-11-18T01:42:33Z
+Fixed: PickerPane coerceIn crash on short panes; construction list cell max preserved (35bc64e)
