@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI
+Reviewed-At: 2026-11-18T01:38:40Z
+Fixed: plainLabel keeps combining marks (aa141fb)
