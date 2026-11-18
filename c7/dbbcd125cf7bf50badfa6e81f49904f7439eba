@@ -1,0 +1,5 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI
+Reviewed-At: 2026-11-18T01:42:33Z
+Fixed: Retire save name collision and proceeding after a failed save (35bc64e)
+Fixed: chart labels keep combining marks (aa141fb, shared plainLabel)
