@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI
+Reviewed-At: 2026-11-18T06:22:30Z
+Fixed: wrapped 24-pt title overflowed the 32-unit band (b12f9d0)
