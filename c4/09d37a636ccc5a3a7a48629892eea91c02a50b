@@ -1,0 +1,6 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI
+Reviewed-At: 2026-11-18T01:42:33Z
+Declined-By: Claude Code
+Declined: trade popup buttons in one row may exceed a very narrow window — three short labels fit at supported sizes
+Declined: shortcut badge below a button at the screen bottom — LOW, cosmetic
