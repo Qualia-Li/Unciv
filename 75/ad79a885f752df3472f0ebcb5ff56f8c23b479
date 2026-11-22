@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: current Codex session
+Reviewed-At: 2026-11-22T09:55:25Z
+Validation: git show and static inspection of callers, data filtering, rendering, and turn bookkeeping; runtime tests not run.
