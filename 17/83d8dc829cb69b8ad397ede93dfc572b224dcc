@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI (gpt-6-astra, high)
+Reviewed-At: 2026-11-22T06:54:30Z
+Fixed: deferred Defend skipped union partners (b436a69); autoplaying human always accepted Defend (b436a69); refusals unsettled after a rejected automated Defend (1783d8d)
