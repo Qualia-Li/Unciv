@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI (gpt-6-astra, high)
+Reviewed-At: 2026-11-22T07:12:18Z
+Fixed: long separate-peace warning ran off narrow screens (e27ab59, in ConfirmPopup for every caller)
