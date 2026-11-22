@@ -1,0 +1,4 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI (gpt-6-astra, high)
+Reviewed-At: 2026-11-22T07:47:45Z
+Fixed: per-turn mean was transient, so a mid-turn reload could change it (c176921)
