@@ -1,0 +1,6 @@
+Codex-Review: passed
+Reviewer: OpenAI Codex CLI (gpt-6-astra, high)
+Reviewed-At: 2026-11-22T07:12:18Z
+Fixed: aircraft could not land on a carrier in the second slot (0a885a3); asymmetric escort pairing (0a885a3); escort swap read one slot (2919a08)
+Declined-By: Claude Code
+Declined: best defender ranks attacker-blind (defence vs melee x health), so a ship stronger against ranged attacks can lose the pick to an embarked unit — Civ V picks per attacker; the combat preview shows the chosen defender, so it is visible, not silent; passing the attacker through the preview's view layer is a larger change for a later round
