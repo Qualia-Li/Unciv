@@ -241,6 +241,10 @@ class DiplomacyFunctions(val civInfo: Civilization) {
             return true
         // Players can always pass through city-state tiles
         if (!civInfo.isAIOrAutoPlaying() && otherCiv.isCityState) return true
+        // AI majors can pass through the tiles of city-states that consider them friends, as in Civ V
+        if (otherCiv.isCityState && !civInfo.isCityState
+            && otherCiv.getDiplomacyManager(civInfo)?.isConsideredFriendlyTerritory() == true)
+            return true
         return false
     }
 }
